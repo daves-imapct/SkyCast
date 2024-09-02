@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weatherStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="weather">
+        <p class="brand">the weather</p>
+        <div class="search-container">
+            <div class="inner-search-container">
+    <input type="text" class="search" placeholder="Search City..." spellcheck="false">
+   <button class="search-click"> <i class="fa fa-search" aria-hidden="true"></i></button>
+            </div>
+   <!-- <button class="current">Current Location</button> -->
+    </div>
+    <div class="whole">
+        <div class="main">
+    <div class="weather-desc">
+    <div class="temp">
+    <p class="temperature" id="temperature">16°C</p>
+    </div>
+    <div class="temp-desc"> 
+        <img src="./images/icons/day/clear.png" class="weather-icon">
+        <p class="weather-info"></p>
+    </div>
+    </div>
+    <div class="city-time">
+        <p class="city" id="city"></p>
+    </div>
+
+    <div class="weather-details">
+        <div class="stat humidity">
+        <img src="./images/humidity.png">
+        <div class="detail">
+        <p class="humidity-value"></p>
+        <p class="name">Humidity</p>
+        </div>
+    </div>
+
+    <div class="stat wind-speed">
+        <img src="./images/wind.png">
+        <div class="detail">
+        <p class="wind-speed-value"></p>
+        <p>Wind Speed</p>
+        </div>
+    </div>
+
+    <div class="stat visibility">
+        <i class="fa fa-eye" aria-hidden="true"></i>
+        <div class="detail">
+        <p class="visibility-value"></p>
+        <p>Visibility</p>
+        </div>
+    </div>
+
+    <div class="stat pressure">
+        <i class="fa fa-compass" aria-hidden="true"></i>
+        <div class="detail">
+        <p class="pressure-value"></p>
+        <p>Pressure</p>
+        </div>
+    </div>
+
+    </div>
+    <div class="forecasts">
+        <div class="forecast" id="one">
+            <p class="forecast-date" id="date1"></p>
+            <img src="" id="icon1">
+            <p id="temp1"></p>
+            <p id="desc1"></p>
+        </div>
+        <div class="forecast" id="two">
+            <p class="forecast-date" id="date2"></p>
+            <img src="" id="icon2">
+            <p id="temp2"></p>
+            <p id="desc2"></p>
+        </div>
+        <div class="forecast" id="three">
+            <p class="forecast-date" id="date3"></p>
+            <img src="" id="icon3">
+            <p id="temp3"></p>
+            <p id="desc3"></p>
+        </div>
+        <div class="forecast" id="four">
+            <p class="forecast-date" id="date4"></p>
+            <img src="" id="icon4">
+            <p id="temp4"></p>
+            <p id="desc4"></p>
+        </div>
+        <div class="forecast" id="five">
+            <p class="forecast-date" id="date5"></p>
+            <img src="" id="icon5">
+            <p id="temp5"></p>
+            <p id="desc5"></p>
+        </div>
+        </div>
+    </div>
+    </div>
+    <div class="error">
+        <img src="./images/404.png">
+        <p class="error-info">Oops! Location not found!</p>
+    </div>
+    </div>
+    <script src="weatherScript.js"></script>
+</body>
+</html>
