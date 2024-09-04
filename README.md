@@ -13,7 +13,7 @@ Minimalist Design: Enjoy a clean, modern interface that makes accessing weather 
 To run Skycast locally on your machine, follow these steps:
 
 1. Clone the repository:
-   git clone https://github.com/your-username/skycast.git
+   git clone https://github.com/daves-imapct/SkyCast.git
    cd skycast
 2. Install dependencies:
 If your project requires any dependencies, you can include installation steps here, like:
