@@ -8,5 +8,21 @@ Real-Time Weather Updates: Get the latest weather conditions with real-time upda
 Location-Based Forecasts: Automatically receive weather updates based on your current location, or search for forecasts in specific cities or regions..
 Minimalist Design: Enjoy a clean, modern interface that makes accessing weather information straightforward and intuitive.
 
-Why Skycast?
-Skycast is designed for those who want a no-nonsense weather app that delivers essential information quickly and efficiently. Whether you’re a casual user or a weather enthusiast, Skycast has the tools and features you need to stay ahead of the elements.
+ Installation
+
+To run Skycast locally on your machine, follow these steps:
+
+1. Clone the repository:
+   git clone https://github.com/your-username/skycast.git
+   cd skycast
+2. Install dependencies:
+If your project requires any dependencies, you can include installation steps here, like:
+npm install
+3. Run the application:
+npm start
+4. Open in your browser:
+Visit http://localhost:3000 in your web browser to view the app.
+
+Usage
+Search for Weather: Enter the name of a city or in the search bar to retrieve the current weather and 5-day forecast.
+Explore Forecast: Scroll through the daily forecast to see temperature humidity, wind speed, and visibility.
